@@ -11,7 +11,7 @@
       "state": "Córdoba",
       "date": "1985"
     },
-    "summary": "A flexible and risk taking Computer Engineer with years of experience implementing systems in Javascript and C#. Exceptional in team collaboration and solution brainstorming, with attention to details and great communication skills.",
+    "summary": "A flexible and risk taking Computer Engineer with years of experience implementing systems in Javascript and C# .NET . Exceptional in team collaboration and solution brainstorming, with attention to details and great communication skills.",
     "location": {
       "address": "387 Fructuoso Rivera",
       "postalCode": "CP 5000",
@@ -38,7 +38,7 @@
       "position": "Full Stack Engineer",
       "website": "http://www.cocobongo.com",
       "startDate": "2016-03-01",
-      "endDate": "2017-02-01",
+      "endDate": "2017-05-31",
       "summary": "Doing full stack tasks, from analyzing data with Google Analytics to implementing DB designs needed for the project. Also, doing tasks related to team management such as having weekly meetings with main stakeholders, organizing team tasks and solving project conflicts and impediments.",
       "highlights": [
         "Using Google Analytics to analyze interaction and web site usage across the project",
@@ -54,7 +54,7 @@
       "position": "Front End Engineer",
       "website": "http://www.gosur.com",
       "startDate": "2014-10-01",
-      "endDate": "2015-11-01",
+      "endDate": "2016-03-01",
       "summary": "Responsible of FrontEnd code delivered in several projects across the company. Also, part of the UI-UX design team, collaborating with ideas and prototypes; implementing new features and giving support for projects in their multiple versions (mobile, tablet and desktop).",
       "highlights": [
         "Using HTML and Javascript skills to deliver features requested in all major browsers (IE7+) for mobile, tablet and desktop",
