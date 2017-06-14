@@ -1,4 +1,5 @@
 # my-resume
+
 Combining"resume-cli", "html-pdf" and "json-resume" libs to build my CV
 
 Steps to use it
@@ -36,6 +37,7 @@ After that, and if everything goes OK, a "resume.pdf" file will be created.
 Want an HTML file, published in the web?
 -------
 Use the "publish" command from resume-cli using the console (check https://github.com/jsonresume/resume-cli#resume-publish for more info) 
+* Make sure to first login to your "resume-cli" account by using "resume login" command.
 
 Why not using "pdf" as output format?
 -------
