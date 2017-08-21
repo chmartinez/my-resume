@@ -34,6 +34,20 @@
   },
   "work": [
     {
+      "company": "Globant",
+      "position": "Web UI Team Leader",
+      "website": "http://www.espn.com/fantasy/",
+      "startDate": "2017-07-01",
+      "summary": "Working as a Team Leader for one of Globant's project, doing not only web UI tasks related but also leading one of the Web UI team within the project",
+      "highlights": [
+        "Leading the team through the sprints in order to deliver the agreeded scope with the client",
+        "Participating and collaborating with the client in technical decisions related to the project itself",
+        "Implementing requested features using React, Mobx and Next as base UI technologies",
+        "Using ESPN authored UI styling tools and components to deliver requested features"
+      ],
+      "keywords": ["ReactJS", "NextJS", "MobX", "Chai", "Enzyme", "Mocha", "CSS", "flexbox"]
+    },
+    {
       "company": "Gosoft S.A",
       "position": "Full Stack Engineer",
       "website": "http://www.cocobongo.com",
@@ -203,10 +217,11 @@
       "keywords": [
         "Javascript",
         "AngularJS",
-        "Jquery",
+        "ReactJS",
+        "Ionic",
         "HTML5",
-        "CSS",
-        "Ionic"
+        "SASS",
+        "CSS"
       ]
     },
     {
@@ -235,7 +250,7 @@
     },
     {
       "language": "English",
-      "fluency": "Intermediate"
+      "fluency": "Upper Intermediate"
     }
   ],
   "interests": [
