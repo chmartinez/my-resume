@@ -4,7 +4,9 @@
   "description": "A project that allows to have a CV from a .json file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run json2html && npm run html2pdf",
+    "json2html": "resume export --format html --theme stackoverflow resume.html",
+    "html2pdf": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,8 @@
     "html-pdf": "^2.1.0",
     "jsonresume-theme-stackoverflow": "^1.0.4",
     "resume-cli": "^0.4.18"
+  },
+  "devDependencies": {
+    "phantomjs-prebuilt": "^2.1.13"
   }
 }

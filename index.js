@@ -11,9 +11,9 @@ var options = {
 		"right": "20px"	
 	}
  };
-
+console.log('Creating pdf based on html file...')
 pdf.create(html, options).toFile('resume.pdf', function(err, res) {
   if (err) return console.log(err);
-  console.log(res);
+  console.log('PDF created successfully!\n', res);
 });
 
