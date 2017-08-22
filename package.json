@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npm run json2html && npm run html2pdf",
     "json2html": "resume export --format html --theme stackoverflow resume.html",
-    "html2pdf": "node index.js"
+    "html2pdf": "node index.js",
+    "publish": "npm json2html && resume publish"
   },
   "repository": {
     "type": "git",
