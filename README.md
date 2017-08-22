@@ -4,39 +4,21 @@ Combining"resume-cli", "html-pdf" and "json-resume" libs to build my CV
 
 Steps to use it
 ---------
-* create a "resume.json" file following the format defined at https://jsonresume.org/.
-
-* replace the current "resume.json" with the one previously created. **The file name must be "resume.json". Do not change it!**.
 * run "npm install" in order to download required dependencies.
-
-* run resume-cli "resume" command to create a new html with the desired theme for the .json file.
-
-<pre>
-resume export  --format html --theme "a_downloaded_theme" "output_file_name"
-</pre>
-In my case, I use the "jsonresume-theme-stackoverflow" theme. As the "resume-cli" README says:
-<pre>
-A list of available themes can be found here: http://jsonresume.org/themes/
-
-Please npm install the theme you wish to use locally before attempting to export it.
-</pre>
-
-For example, use this:
-<pre>
-resume export  --format html --theme stackoverflow resume.html
-</pre>
-*Side note*: it may require that you install the theme globally (i.e: using the -g option from npm) so make sure to check that out.
-
-* run the index.js file as following:
-<pre>
-node index.js
-</pre>
-
-After that, and if everything goes OK, a "resume.pdf" file will be created.
+* create a "resume.json" file following the format defined at https://jsonresume.org/.
+* replace the current "resume.json" with the one previously created. **The file name must be "resume.json". Do not change it!**.
+* modify the json as needed
+* run `npm run build` and voilá! A new html and a pdf version!
+*NOTE*: since this is a personal project, I'm hardcoding the "theme" being used. 
+If you want to set an specific "theme" for your resume, you will have to do the following:
+* check out the list of available themes that jsonresume offers: http://jsonresume.org/themes/
+* npm install the theme you wish to use locally before attempting to use it (it may require that you install the theme globally (i.e: using the -g option from npm) so make sure to check that out).
+* replace the theme param on the`json2html` script at `package.json` with yours.
+* run `npm run build` and check the html and the pdf that are generated.
 
 Want an HTML file, published in the web?
 -------
-Use the "publish" command from resume-cli using the console (check https://github.com/jsonresume/resume-cli#resume-publish for more info) 
+Use the "publish" command from `package.json` (check https://github.com/jsonresume/resume-cli#resume-publish for more info) 
 * Make sure to first login to your "resume-cli" account by using "resume login" command.
 
 Why not using "pdf" as output format?
