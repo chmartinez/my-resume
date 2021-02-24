@@ -4,7 +4,7 @@
     "label": "Senior Frontend Engineer",
     "email": "christian.dario.martinez@gmail.com",
     "phone": "(+34) 634854678",
-    "summary": "My purpose is to use my knowledge in both Tech and Product Development to make a difference in Software teams",
+    "summary": "My purpose is to use my knowledge in both Software and Product Development to make a difference in teams and products. I believe that with my versatility, my experience, and my 'keep-learning attitude', I'm capable of improving not only the quality of a certain source code but the processes involved and the coherence in software teams.",
     "location": {
       "address": "Carrer del Bruc 94",
       "postalCode": "08009",
@@ -100,7 +100,7 @@
         "React",
         "React Storybook",
         "Mobx",
-        "Styled JSX",
+        "Styled-jsx",
         "NextJS",
         "Enzyme & Chai (for frontend testing)",
         "CSS",
@@ -223,7 +223,7 @@
         "Redux",
         "CSS",
         "styled-components",
-        "Styled JSX",
+        "Styled-jsx",
         "react-testing-library"
       ]
     },
@@ -233,9 +233,6 @@
         "Node",
         "NextJS",
         "React Native",
-        "AngularJS",
-        "C#",
-        "Java",
         "MySql",
         "MongoDB"
       ]
