@@ -16,7 +16,7 @@
       {
         "network": "Linkedin",
         "username": "Christian Martinez",
-        "url": "https://www.linkedin.com/in/christian-dario-martinez/"
+        "url": "https://www.linkedin.com/in/christian-dario-martinez"
       },
       {
         "network": "Twitter",
@@ -85,8 +85,8 @@
     },
     {
       "company": "Globant",
-      "position": "Senior Frontend Engineer | Web UI Team Leader for ESPN",
-      "website": "http://www.espn.com/fantasy/",
+      "position": "Senior Frontend Engineer | Web UI Team Leader for",
+      "website": "http://www.espn.com/fantasy",
       "startDate": "2017-07-01",
       "endDate": "2018-02-03",
       "highlights": [
@@ -172,7 +172,7 @@
       ],
       "keywords": [
         "JavaScript",
-"Angular JS",
+"AngularJS",
 "Node.js",
 "Sails.js",
 "Ionic",
@@ -208,43 +208,54 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Advanced",
+      "level": "Master",
       "keywords": [
         "Javascript",
-        "ReactJS",
+        "ES6",
         "HTML5",
-        "CSS"
-      ]
-    },
-    {
-      "name": "Software Development",
-      "level": "Intermediate",
-      "keywords": [
-        "SASS",
-        "C#",
-        "SQL Server",
         "Git"
       ]
     },
     {
-      "name": "Product Management",
+      "level": "Advanced",
+      "keywords": [
+        "React",
+        "Redux",
+        "CSS",
+        "styled-components",
+        "Styled JSX",
+        "react-testing-library"
+      ]
+    },
+    {
       "level": "Intermediate",
       "keywords": [
-        "Scrum",
-        "Agile Methodologies",
-        "Teamwork"
+        "Node",
+        "NextJS",
+        "React Native",
+        "AngularJS",
+        "C#",
+        "Java",
+        "MySql",
+        "MongoDB"
+      ]
+    },
+    {
+      "level": "Beginner",
+      "keywords": [
+        "Docker",
+        "AWS"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Proficient"
+      "fluency": "Fluent"
     },
     {
       "language": "Spanish",
-      "fluency": "Native"
+      "fluency": "Native speaker"
     }
   ]
 }
