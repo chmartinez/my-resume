@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/chmartinez/my-resume#readme",
   "dependencies": {
-    "html-pdf": "^2.1.0",
+    "html-pdf": "^3.0.1",
     "jsonresume-theme-stackoverflow": "^1.0.4",
     "resume-cli": "^0.4.18"
   },
